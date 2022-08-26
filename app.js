@@ -25,14 +25,14 @@ app.get('/', function (req, res) {
 let email;
 
 let transporter = nodemailer.createTransport({
-    host: "smtpout.secureserver.net",
+   host:"abcdefg.abcdefserver.net",
     port: 465,
     secure: true,
     service: null,
 
     auth: {
-        user: 'contact@alt-pi.com',
-        pass: 'Altpi@1234',
+        user: 'details@abc.com',
+        pass: 'details@123',
     }
 
 });
